@@ -1,0 +1,289 @@
+/* header {
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+h1 {
+    font-size: 9em;
+    padding-top: 2%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.div-agencije ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 7%;
+    padding-top: 6;
+}
+
+.div-agencije li {
+    padding-right: 10%;
+    padding-top: 1%;
+    font-size: 2em;
+    margin: 1%;
+}
+
+.div-agencije a{
+    border: 3px solid black;
+    padding: 5;
+    text-decoration: none;
+    color: black;
+}
+
+.div-nav {
+    background-color: white;
+    width: 45%;
+    height: 10%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.div-nav ul{
+    padding-top: 28;
+}
+
+.div-nav li{
+    display: inline;
+    font-size: 2em;
+    margin: 8%;
+}
+
+.div-nav a{
+    border: 3px solid black;
+    padding: 5;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: block;
+}
+
+.div-korisnici{
+    width: 60%;
+    height: 25%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.div-korisnici ul{
+    margin-left: 7%;
+    padding-top: 6;
+}
+
+.div-korisnici img{
+    border-radius: 50%;
+    width: 12%;
+    aspect-ratio: 1;
+    margin: 20px 15px;
+    opacity: 0.5;
+}
+
+.div-korisnici li{
+    display: inline;
+    font-size: 1em;
+    margin: 1%;
+    text-align: center;
+}
+
+.div-korisnici a{
+    text-align: center;
+} */
+
+h2 {
+    color: white;
+}
+
+body {
+    background-image: url(slike/pozadina.jpg);
+    background-size:cover;
+}
+
+.div-agencije {
+    width: 60%;
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.card .card-img-top {
+    height: 100%;
+}
+
+.div-agencija-info {
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.slika-agencija {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slika-destinacija {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forma {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10;
+}
+
+.nav-link {
+    color: white;
+  }
+
+.carousel-item img {
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .modal-content2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-content2 p {
+    margin-bottom: 20px;
+  }
+  
+  .modal-buttons2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons2 button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal-buttons2 button:hover {
+    background-color: #0F8EDB;
+  }
+  
+  
+
+  
+
+  .search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  #search-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  
+  #search-section2 input[type="text"],
+  #search-section2 select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-button2 {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .search-heading2 {
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  
+  
